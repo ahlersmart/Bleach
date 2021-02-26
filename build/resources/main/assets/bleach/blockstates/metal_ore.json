@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "bleach:block/metal_ore"
+    }
+  }
+}
