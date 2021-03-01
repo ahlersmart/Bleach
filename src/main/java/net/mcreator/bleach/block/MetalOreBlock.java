@@ -28,6 +28,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.bleach.itemgroup.BleachItemGroup;
+import net.mcreator.bleach.item.MetalIngotItem;
 import net.mcreator.bleach.BleachModElements;
 
 import java.util.Random;
@@ -64,7 +65,7 @@ public class MetalOreBlock extends BleachModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(MetalIngotItem.block, (int) (1)));
 		}
 	}
 	@Override

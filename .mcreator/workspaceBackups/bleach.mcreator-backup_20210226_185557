@@ -1,0 +1,68 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "MetalOre",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "metal_ore"
+    },
+    {
+      "name": "MetalIngot",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "metal_ingot"
+    },
+    {
+      "name": "Zanpakuto",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zanpakuto"
+    },
+    {
+      "name": "Bleach",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bleach"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "itemGroup.tabbleach": "Bleach",
+      "item.bleach.metal_ingot": "Metal Ingot",
+      "item.bleach.zanpakuto": "Zanpakuto",
+      "block.bleach.metal_ore": "Metal Ore"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "bleach",
+    "modName": "Bleach",
+    "version": "1.0.0",
+    "author": "mart-, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "modElementsPackage": "net.mcreator.bleach",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000547520
+}

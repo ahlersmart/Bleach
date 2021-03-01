@@ -1,0 +1,24 @@
+{
+  "group": "bleach",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 4 ",
+    "6  "
+  ],
+  "key": {
+    "2": {
+      "item": "bleach:metal_ingot"
+    },
+    "4": {
+      "item": "bleach:metal_ingot"
+    },
+    "6": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "bleach:zanpakuto",
+    "count": 1
+  }
+}
